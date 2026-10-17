@@ -1,0 +1,31 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "b9mRF",
+          "x": 236,
+          "y": 114,
+          "fill": "#000000",
+          "content": "ksndks",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ],
+  "fileToken": "4d4996c0-87f2-479f-8202-b0269fd40b5e"
+}

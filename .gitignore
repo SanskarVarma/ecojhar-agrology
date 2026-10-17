@@ -1,0 +1,16 @@
+# Private source material (business plan contains PAN/GSTIN and other details)
+*.pptx
+*.ppt
+info.txt
+
+# Working files not used by the site
+generated.png
+/images/
+
+# macOS
+.DS_Store
+
+# Site build output and dependencies (web/.gitignore also covers these)
+node_modules
+.next
+.vercel
