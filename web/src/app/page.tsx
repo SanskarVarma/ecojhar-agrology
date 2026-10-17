@@ -3,12 +3,14 @@ import { Farm } from "@/components/Farm";
 import { Footer } from "@/components/Footer";
 import { Glance } from "@/components/Glance";
 import { Hero } from "@/components/Hero";
+import { Location } from "@/components/Location";
 import { MissionVision } from "@/components/MissionVision";
 import { Outcomes } from "@/components/Outcomes";
 import { Produce } from "@/components/Produce";
 import { Roadmap } from "@/components/Roadmap";
 import { Story } from "@/components/Story";
 import { Team } from "@/components/Team";
+import { WaterCredits } from "@/components/WaterCredits";
 
 export default function Home() {
   return (
@@ -19,9 +21,11 @@ export default function Home() {
       <Produce />
       <Farm />
       <MissionVision />
+      <WaterCredits />
       <Roadmap />
       <Outcomes />
       <Team />
+      <Location />
       <Contact />
       <Footer />
     </main>

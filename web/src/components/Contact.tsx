@@ -2,6 +2,8 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { ContactForm } from "./ContactForm";
 import { Eyebrow, Section, SectionTitle } from "./ui";
 
+const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+
 export function Contact() {
   return (
     <Section
@@ -42,18 +44,20 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="flex gap-3.5">
-          <Mail size={22} className="mt-1 shrink-0 text-fg-inverse" />
-          <div className="flex flex-col gap-0.5">
-            <p className="text-[15px] text-white/70">Email</p>
-            <a
-              href="mailto:safal.organic05@gmail.com"
-              className="break-all text-lg leading-[1.4] text-fg-inverse hover:underline"
-            >
-              safal.organic05@gmail.com
-            </a>
+        {CONTACT_EMAIL && (
+          <div className="flex gap-3.5">
+            <Mail size={22} className="mt-1 shrink-0 text-fg-inverse" />
+            <div className="flex flex-col gap-0.5">
+              <p className="text-[15px] text-white/70">Email</p>
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="break-all text-lg leading-[1.4] text-fg-inverse hover:underline"
+              >
+                {CONTACT_EMAIL}
+              </a>
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       <ContactForm />

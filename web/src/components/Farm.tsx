@@ -19,7 +19,7 @@ const facilities: { icon: LucideIcon; text: string }[] = [
   { icon: Warehouse, text: "Office-cum-store room" },
   { icon: Fence, text: "Fencing with cemented poles and wire or synthetic net" },
   { icon: BedDouble, text: "Shed for staff residence" },
-  { icon: Fish, text: "100×100 pond for fish farming" },
+  { icon: Fish, text: "Pond of 100 ft × 100 ft × 20 ft for fish farming" },
   { icon: Leaf, text: "3 acres for vegetables and fruit" },
 ];
 

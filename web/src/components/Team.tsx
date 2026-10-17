@@ -1,10 +1,35 @@
+import Image from "next/image";
+import { Users } from "lucide-react";
 import { Eyebrow, Section, SectionTitle } from "./ui";
 
-const partners = [
-  { role: "Ph.D. in Chemistry", detail: "27 years in water, sanitation and hygiene" },
-  { role: "Ph.D. in Social Science", detail: "27 years in water, sanitation and hygiene" },
-  { role: "BA, entrepreneur", detail: "15 years in the transport sector" },
-  { role: "Farmer and contractor", detail: "15 years of local contractual work" },
+interface Partner {
+  kind: string;
+  name?: string;
+  photo?: string;
+  role: string;
+  detail: string;
+}
+
+const partners: Partner[] = [
+  {
+    kind: "Designated partner",
+    name: "Dr. Gaurav Varma",
+    photo: "/images/team/gaurav.png",
+    role: "Ph.D. in Chemistry",
+    detail: "27 years in water, sanitation and hygiene",
+  },
+  {
+    kind: "Designated partner",
+    name: "Dr. Bipin Kumar Singh",
+    photo: "/images/team/bipin.png",
+    role: "Ph.D. in Social Science",
+    detail: "27 years in water, sanitation and hygiene",
+  },
+  {
+    kind: "Associated partner",
+    role: "Farmer and contractor",
+    detail: "15 years of local contractual work",
+  },
 ];
 
 export function Team() {
@@ -14,25 +39,44 @@ export function Team() {
         <Eyebrow>The team</Eyebrow>
         <SectionTitle>The people behind the farm.</SectionTitle>
         <p className="max-w-[760px] pt-1 text-[17px] text-fg-secondary">
-          Designated partners: Dr. Gaurav Varma and Dr. Bipin Kumar Singh, with
-          two further partners.
+          Designated partners: Dr. Gaurav Varma and Dr. Bipin Kumar Singh.
         </p>
       </div>
-      <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {partners.map((p) => (
           <li
             key={p.role}
-            className="flex flex-col gap-2 border-t border-line pt-5"
+            className="flex flex-col gap-4 border-t border-line pt-5"
           >
-            <p className="font-data text-xs uppercase tracking-[1.2px] text-accent">
-              Designated partner
-            </p>
-            <h3 className="font-heading text-2xl font-medium leading-[1.15]">
-              {p.role}
-            </h3>
-            <p className="text-[15px] leading-[1.5] text-fg-secondary">
-              {p.detail}
-            </p>
+            {p.photo ? (
+              <Image
+                src={p.photo}
+                alt={`${p.name}, ${p.role}`}
+                width={88}
+                height={88}
+                className="size-[88px] rounded-full object-cover"
+              />
+            ) : (
+              <span className="flex size-[88px] items-center justify-center rounded-full bg-surface-tint text-accent">
+                <Users size={32} />
+              </span>
+            )}
+            <div className="flex flex-col gap-2">
+              <p className="font-data text-xs uppercase tracking-[1.2px] text-accent">
+                {p.kind}
+              </p>
+              <h3 className="font-heading text-2xl font-medium leading-[1.15]">
+                {p.name ?? p.role}
+              </h3>
+              {p.name && (
+                <p className="text-base font-medium text-fg-primary">
+                  {p.role}
+                </p>
+              )}
+              <p className="text-[15px] leading-[1.5] text-fg-secondary">
+                {p.detail}
+              </p>
+            </div>
           </li>
         ))}
       </ul>

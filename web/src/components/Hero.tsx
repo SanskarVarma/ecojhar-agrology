@@ -7,7 +7,6 @@ const links = [
   { label: "Our farm", href: "#farm" },
   { label: "Roadmap", href: "#roadmap" },
   { label: "Team", href: "#team" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export function Hero() {

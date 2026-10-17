@@ -2,7 +2,7 @@ const stats = [
   { value: "4.16", label: "acres of farmland in Tiuj Village" },
   { value: "3", label: "acres for vegetables and fruit" },
   { value: "50", label: "goats housed in our shed" },
-  { value: "100×100", label: "pond for fish farming" },
+  { value: "100×100", label: "ft pond, 20 ft deep, for fish farming" },
 ];
 
 export function Glance() {
