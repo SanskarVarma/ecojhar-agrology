@@ -23,10 +23,11 @@ const partners: Partner[] = [
     name: "Dr. Bipin Kumar Singh",
     photo: "/images/team/bipin.png",
     role: "Ph.D. in Social Science",
-    detail: "27 years in water, sanitation and hygiene",
+    detail: "27 years in WASH and skill development",
   },
   {
     kind: "Associated partner",
+    photo: "/images/team/surjit.jpg",
     role: "Farmer and contractor",
     detail: "15 years of local contractual work",
   },
@@ -51,10 +52,10 @@ export function Team() {
             {p.photo ? (
               <Image
                 src={p.photo}
-                alt={`${p.name}, ${p.role}`}
+                alt={p.name ? `${p.name}, ${p.role}` : p.role}
                 width={88}
                 height={88}
-                className="size-[88px] rounded-full object-cover"
+                className="size-[88px] rounded-full object-cover object-[50%_30%]"
               />
             ) : (
               <span className="flex size-[88px] items-center justify-center rounded-full bg-surface-tint text-accent">

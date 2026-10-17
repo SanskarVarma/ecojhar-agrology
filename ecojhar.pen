@@ -25,7 +25,3863 @@
           "fontWeight": "normal"
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "NMl8k",
+      "x": 920,
+      "y": 0,
+      "name": "Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BByrJ",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 800,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "generated.png",
+            "mode": "cover"
+          },
+          "layout": "vertical",
+          "padding": [
+            32,
+            64,
+            72,
+            64
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "QCyxr",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Scrim",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1E332200",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1E3322F2",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 800
+            },
+            {
+              "type": "frame",
+              "id": "hntYy",
+              "name": "Nav",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H1e0o",
+                  "name": "Logo",
+                  "fill": "$fg-inverse",
+                  "content": "Ecojhar",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "oB5N5",
+                  "name": "Nav Links",
+                  "gap": 36,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y0fyB4",
+                      "name": "Journal",
+                      "fill": "$fg-inverse",
+                      "content": "Journal",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e8e9P",
+                      "name": "Features",
+                      "fill": "$fg-inverse",
+                      "content": "Features",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RxIPV",
+                      "name": "Community",
+                      "fill": "$fg-inverse",
+                      "content": "Community",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EHyOS",
+                      "name": "About",
+                      "fill": "$fg-inverse",
+                      "content": "About",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c2XnHW",
+                  "name": "Nav CTA",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kb0Mg",
+                      "name": "Nav CTA Label",
+                      "fill": "$fg-primary",
+                      "content": "Get started",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RpSir",
+              "name": "Hero Copy",
+              "width": 820,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rw8F7",
+                  "name": "Headline",
+                  "fill": "$fg-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Live lighter, one small habit at a time.",
+                  "lineHeight": 1.02,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 84,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "UwoXt",
+                  "name": "Subhead",
+                  "fill": "#FFFFFFE6",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "A calm journal for the everyday choices that are kind to the planet.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "UMPIO",
+                  "name": "Hero Actions",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hmVeo",
+                      "name": "Primary Button",
+                      "fill": "$accent",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bGc1a",
+                          "name": "Primary Label",
+                          "fill": "$fg-inverse",
+                          "content": "Start your journal",
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "abndV",
+                      "name": "Secondary Button",
+                      "cornerRadius": 9999,
+                      "stroke": "#FFFFFFAA",
+                      "strokeWidth": 1,
+                      "padding": [
+                        16,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uemHm",
+                          "name": "Secondary Label",
+                          "fill": "$fg-inverse",
+                          "content": "See how it works",
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BEfEq",
+          "name": "Features",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LEgAG",
+              "name": "Features Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Krvl9",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "THE JOURNAL",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "DVyAM",
+                  "name": "Features Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Small notes. Visible change.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 56,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TIs3K",
+              "name": "Bento Row 1",
+              "width": "fill_container",
+              "height": 380,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "viET0",
+                  "name": "Log Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-inverse",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 36,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZGJnx",
+                      "name": "Log Tile Icon",
+                      "width": 32,
+                      "height": 32,
+                      "icon": "notebook-pen",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yMDe8",
+                      "name": "Log Tile Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gH2Nt",
+                          "name": "Log Tile Title",
+                          "fill": "$fg-inverse",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Log a habit in seconds",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 40,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OLE4r",
+                          "name": "Log Tile Body",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Jot down what you reused, repaired or skipped today. No forms, just a line or two.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hoQk9",
+                  "name": "Photo Tile",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "linhlee",
+                    "link": "https://unsplash.com/@linhlee",
+                    "author": "Linh Le"
+                  },
+                  "width": 380,
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1585231527232-275f693abe4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTIyMjA2Mzl8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rpiap",
+              "name": "Bento Row 2",
+              "width": "fill_container",
+              "height": 300,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "D8gq5q",
+                  "name": "Reflect Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "padding": 36,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GufiG",
+                      "name": "Reflect Tile Icon",
+                      "width": 32,
+                      "height": 32,
+                      "icon": "sprout",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u2qy9j",
+                      "name": "Reflect Tile Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bZGDI",
+                          "name": "Reflect Tile Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "See your patterns",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lTLWV",
+                          "name": "Reflect Tile Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Look back over weeks to notice what is working and what to try next.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UVhCf",
+                  "name": "Plan Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "padding": 36,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "MIuaI",
+                      "name": "Plan Tile Icon",
+                      "width": 32,
+                      "height": 32,
+                      "icon": "calendar-check",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TWSIX",
+                      "name": "Plan Tile Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "etajH",
+                          "name": "Plan Tile Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Plan a greener week",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qGihx",
+                          "name": "Plan Tile Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Pick one or two small goals and let the journal remind you gently.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q9cB7",
+                  "name": "Share Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "padding": 36,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "d4CRjs",
+                      "name": "Share Tile Icon",
+                      "width": 32,
+                      "height": 32,
+                      "icon": "users",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w4KxOg",
+                      "name": "Share Tile Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KMpqm",
+                          "name": "Share Tile Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Grow it together",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tPJyK",
+                          "name": "Share Tile Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Invite friends or family and swap ideas for living lighter.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fK7iX",
+          "name": "Closing CTA",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            104,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q5GoJA",
+              "name": "CTA Title",
+              "fill": "$fg-inverse",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "Start with one small step today.",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "$font-heading",
+              "fontSize": 60,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "pVmr3",
+              "name": "CTA Button",
+              "fill": "$surface-primary",
+              "cornerRadius": 9999,
+              "padding": [
+                18,
+                36
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HE99C",
+                  "name": "CTA Label",
+                  "fill": "$fg-primary",
+                  "content": "Start your journal",
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dVY21",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "stroke": "#FFFFFF1F",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            28,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "TTNwl",
+              "name": "Footer Logo",
+              "fill": "$fg-inverse",
+              "content": "Ecojhar",
+              "fontFamily": "$font-heading",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "iTCkj",
+              "name": "Footer Note",
+              "fill": "#FFFFFFB3",
+              "content": "© 2026 Ecojhar",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "G8XnS",
+      "x": 0,
+      "y": 2607,
+      "name": "Ecojhar Agrology Landing",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fd9zT",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 820,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/farm-field.jpeg",
+            "mode": "cover"
+          },
+          "layout": "vertical",
+          "padding": [
+            32,
+            64,
+            80,
+            64
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "v9yHX",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Scrim",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1E332240",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1E3322F0",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 820
+            },
+            {
+              "type": "frame",
+              "id": "SQxYE",
+              "name": "Nav",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Vfbbi",
+                  "name": "Logo",
+                  "fill": "$fg-inverse",
+                  "content": "Ecojhar Agrology",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "An1m0",
+                  "name": "Nav Links",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l8Rex",
+                      "name": "About",
+                      "fill": "$fg-inverse",
+                      "content": "About",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c9NHK4",
+                      "name": "What we grow",
+                      "fill": "$fg-inverse",
+                      "content": "What we grow",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LSOaV",
+                      "name": "Our farm",
+                      "fill": "$fg-inverse",
+                      "content": "Our farm",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p2hzt",
+                      "name": "Roadmap",
+                      "fill": "$fg-inverse",
+                      "content": "Roadmap",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K5y6M",
+                      "name": "Team",
+                      "fill": "$fg-inverse",
+                      "content": "Team",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m17uI",
+                      "name": "Contact",
+                      "fill": "$fg-inverse",
+                      "content": "Contact",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jWt2f",
+                  "name": "Nav CTA",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 9999,
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d0ddhv",
+                      "name": "Nav CTA Label",
+                      "fill": "$fg-primary",
+                      "content": "Contact us",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dHjGC",
+              "name": "Hero Copy",
+              "width": 880,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BOzJb",
+                  "name": "Eyebrow",
+                  "fill": "#FFFFFFCC",
+                  "content": "TIUJ VILLAGE · DARU BLOCK · HAZARIBAGH, JHARKHAND",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "W05Le",
+                  "name": "Headline",
+                  "fill": "$fg-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Natural, chemical-free produce from our farm in Hazaribagh.",
+                  "lineHeight": 1.03,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 78,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "r8fc7D",
+                  "name": "Subhead",
+                  "fill": "#FFFFFFE6",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Vegetables, fruit, fish and goat meat grown on 4.16 acres in Tiuj Village and sold at a fair price.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zUMlh",
+                  "name": "Hero Actions",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D6Mduc",
+                      "name": "Primary Button",
+                      "fill": "$accent",
+                      "cornerRadius": 9999,
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O175b",
+                          "name": "Primary Button Label",
+                          "fill": "$fg-inverse",
+                          "content": "See what we grow",
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "znOEp",
+                      "name": "Secondary Button",
+                      "cornerRadius": 9999,
+                      "stroke": "#FFFFFFAA",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m8Bc2",
+                          "name": "Secondary Button Label",
+                          "fill": "$fg-inverse",
+                          "content": "Partner with us",
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KFetd",
+              "layoutPosition": "absolute",
+              "x": 1316,
+              "y": 716,
+              "name": "WhatsApp Widget",
+              "width": 60,
+              "height": 60,
+              "fill": "#25D366",
+              "cornerRadius": 9999,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000026",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 16
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Pzqq8",
+                  "name": "WhatsApp Icon",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "message-circle",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "daZCy",
+          "name": "Farm At A Glance",
+          "width": "fill_container",
+          "fill": "$surface-tint",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            56,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WvPcu",
+              "name": "Glance Stats",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MHxHv",
+                  "name": "acres of farmland in Tiuj Village",
+                  "width": "fill_container",
+                  "stroke": "#2D6B3F40",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JzWwC",
+                      "name": "acres of farmland in Tiuj Village Value",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4.16",
+                      "lineHeight": 1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 60,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EYsHH",
+                      "name": "acres of farmland in Tiuj Village Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "acres of farmland in Tiuj Village",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hGiZR",
+                  "name": "acres for vegetables and fruit",
+                  "width": "fill_container",
+                  "stroke": "#2D6B3F40",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lZ380",
+                      "name": "acres for vegetables and fruit Value",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "3",
+                      "lineHeight": 1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 60,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gYYmD",
+                      "name": "acres for vegetables and fruit Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "acres for vegetables and fruit",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MCpqu",
+                  "name": "goats housed in our shed",
+                  "width": "fill_container",
+                  "stroke": "#2D6B3F40",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i03ddE",
+                      "name": "goats housed in our shed Value",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "50",
+                      "lineHeight": 1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 60,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V2RZVW",
+                      "name": "goats housed in our shed Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "goats housed in our shed",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RUjsw",
+                  "name": "pond for fish farming",
+                  "width": "fill_container",
+                  "stroke": "#2D6B3F40",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OkN7c",
+                      "name": "pond for fish farming Value",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "100×100",
+                      "lineHeight": 1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 60,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KRvIG",
+                      "name": "pond for fish farming Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "pond for fish farming",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KXJqG",
+          "name": "Our Story",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "gap": 80,
+          "padding": [
+            112,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "oxGYb",
+              "name": "Valley Photo",
+              "clip": true,
+              "width": 580,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/valley-view.jpeg",
+                "mode": "cover"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "frame",
+              "id": "c7ZNd",
+              "name": "Story Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d5AY0k",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "OUR STORY",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "CYkSu",
+                  "name": "Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A working farm in Tiuj Village, built to make farming profitable.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 48,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "zfK2L",
+                  "name": "Story 1",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ecojhar Agrology is a new start-up in agricultural products and related fields. We run a composite farmhouse of about 4.16 acres in Hazaribagh district, helping every crop reach its production target and making agriculture a profitable business.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "mIoUo",
+                  "name": "Story 2",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We grow with natural, chemical-free inputs. In future we will bring other agriculture activities to farmers who need them.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GgRJV",
+          "name": "What We Grow",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "bIDPu",
+              "name": "Grow Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JEokr",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "WHAT WE GROW",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "F0Gp27",
+                  "name": "Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 820,
+                  "content": "Fresh from our fields, pond and shed.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qOTPN",
+              "name": "Produce Row",
+              "width": "fill_container",
+              "height": 440,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yiYHt",
+                  "name": "Vegetables And Fruit Tile",
+                  "clip": true,
+                  "width": 620,
+                  "height": 440,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/cantaloupe.jpeg",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "ahtQQ",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Vegetables And Fruit Tile Scrim",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1E332200",
+                            "position": 0.35
+                          },
+                          {
+                            "color": "#1E3322E6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 620,
+                      "height": 440
+                    },
+                    {
+                      "type": "text",
+                      "id": "e58YVv",
+                      "name": "Vegetables And Fruit Tile Title",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vegetables & fruit",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L1jH4",
+                      "name": "Vegetables And Fruit Tile Body",
+                      "fill": "#FFFFFFDD",
+                      "textGrowth": "fixed-width",
+                      "width": 420,
+                      "content": "Seasonal vegetables and fruit grown on about 3 acres of our land.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZwFkc",
+                  "name": "Fish Tile",
+                  "clip": true,
+                  "width": 672,
+                  "height": 440,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/fish.jpeg",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "BTuQd",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Fish Tile Scrim",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1E332200",
+                            "position": 0.35
+                          },
+                          {
+                            "color": "#1E3322E6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 672,
+                      "height": 440
+                    },
+                    {
+                      "type": "text",
+                      "id": "VYoMg",
+                      "name": "Fish Tile Title",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fish: Rohu & Katla",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gf2iG",
+                      "name": "Fish Tile Body",
+                      "fill": "#FFFFFFDD",
+                      "textGrowth": "fixed-width",
+                      "width": 420,
+                      "content": "Raised in our own 100×100 pond.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wJeqw",
+              "name": "Other Produce Row",
+              "width": "fill_container",
+              "height": 240,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PB8m3",
+                  "name": "Goat meat Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 32,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "IeBst",
+                      "name": "Goat meat Icon",
+                      "width": 30,
+                      "height": 30,
+                      "icon": "beef",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oP4HG",
+                      "name": "Goat meat Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "utCJ2",
+                          "name": "Goat meat Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Goat meat",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PrkgY",
+                          "name": "Goat meat Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "From our shed for 50 goats.",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o4jnZ",
+                  "name": "Compost Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 32,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "P0zaE",
+                      "name": "Compost Icon",
+                      "width": 30,
+                      "height": 30,
+                      "icon": "recycle",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OsvMb",
+                      "name": "Compost Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vmPUl",
+                          "name": "Compost Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Compost",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "U1QS1R",
+                          "name": "Compost Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Made on the farm to feed the soil.",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wvj72",
+                  "name": "Mushroom Tile",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface-tint",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 32,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qyu6S",
+                      "name": "Mushroom Icon",
+                      "width": 30,
+                      "height": 30,
+                      "icon": "sprout",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wAbvc",
+                      "name": "Mushroom Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f9YVM",
+                          "name": "Mushroom Title",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Mushroom",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 28,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UpSzB",
+                          "name": "Mushroom Body",
+                          "fill": "$fg-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Planned for next year.",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jt144",
+              "name": "Gallery Row",
+              "width": "fill_container",
+              "height": 260,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zk67U",
+                  "name": "Cucumbers Tile",
+                  "clip": true,
+                  "width": 424,
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/cucumber.jpeg",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "hkczB",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Cucumbers Tile Scrim",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1E332200",
+                            "position": 0.35
+                          },
+                          {
+                            "color": "#1E3322E6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 424,
+                      "height": 260
+                    },
+                    {
+                      "type": "text",
+                      "id": "rIgBp",
+                      "name": "Cucumbers Tile Title",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cucumbers",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L6B99",
+                  "name": "Custard apples Tile",
+                  "clip": true,
+                  "width": 424,
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/custard-apple.jpeg",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "H90w6Z",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Custard apples Tile Scrim",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1E332200",
+                            "position": 0.35
+                          },
+                          {
+                            "color": "#1E3322E6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 424,
+                      "height": 260
+                    },
+                    {
+                      "type": "text",
+                      "id": "TlMFP",
+                      "name": "Custard apples Tile Title",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Custard apples",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VeYtx",
+                  "name": "Maize Tile",
+                  "clip": true,
+                  "width": 424,
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/maize-field.jpeg",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "YYTjt",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Maize Tile Scrim",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1E332200",
+                            "position": 0.35
+                          },
+                          {
+                            "color": "#1E3322E6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 424,
+                      "height": 260
+                    },
+                    {
+                      "type": "text",
+                      "id": "N2dmAf",
+                      "name": "Maize Tile Title",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Maize",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p0k5dv",
+          "name": "Our Farm",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "gap": 80,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "K3wiV",
+              "name": "Facilities",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 36,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RsNGs",
+                  "name": "Farm Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fCHVp",
+                      "name": "Eyebrow",
+                      "fill": "$accent",
+                      "content": "OUR FARM",
+                      "fontFamily": "$font-data",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "oZPs1",
+                      "name": "Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Everything the farm needs, on the farm.",
+                      "lineHeight": 1.06,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 48,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "blJ1E",
+                  "name": "Facility Row 1",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ASOg1",
+                      "name": "Own water source with deep boring",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "DChKp",
+                          "name": "Own water source with deep boring Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "droplets",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CumBM",
+                          "name": "Own water source with deep boring Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Own water source with deep boring",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jQNYa",
+                      "name": "Solar power electricity",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IDRVg",
+                          "name": "Solar power electricity Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "sun",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eU85n",
+                          "name": "Solar power electricity Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Solar power electricity",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b4xsa",
+                  "name": "Facility Row 2",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YtXmL",
+                      "name": "Goat shed for 50 goats",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "i6Z8x",
+                          "name": "Goat shed for 50 goats Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "house",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Solj5",
+                          "name": "Goat shed for 50 goats Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Goat shed for 50 goats",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w50Cj",
+                      "name": "Office-cum-store room",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F9Iw9T",
+                          "name": "Office-cum-store room Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "warehouse",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JoEed",
+                          "name": "Office-cum-store room Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Office-cum-store room",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iHMgQ",
+                  "name": "Facility Row 3",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uBGHI",
+                      "name": "Fencing with cemented poles and wire or synthetic net",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "d7HR8I",
+                          "name": "Fencing with cemented poles and wire or synthetic net Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "fence",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EJgSV",
+                          "name": "Fencing with cemented poles and wire or synthetic net Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Fencing with cemented poles and wire or synthetic net",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g0prL",
+                      "name": "Shed for staff residence",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "sL2y4",
+                          "name": "Shed for staff residence Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "bed-double",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wvujq",
+                          "name": "Shed for staff residence Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Shed for staff residence",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ig9e5",
+                  "name": "Facility Row 4",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XQaXt",
+                      "name": "100×100 pond for fish farming",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "u3L1D",
+                          "name": "100×100 pond for fish farming Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "fish",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "exs7V",
+                          "name": "100×100 pond for fish farming Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "100×100 pond for fish farming",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fGIUh",
+                      "name": "3 acres for vegetables and fruit",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Gwj9N",
+                          "name": "3 acres for vegetables and fruit Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "leaf",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pfiJ4",
+                          "name": "3 acres for vegetables and fruit Text",
+                          "fill": "$fg-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "3 acres for vegetables and fruit",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PN8Ky",
+              "name": "Flowers Photo",
+              "clip": true,
+              "width": 520,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/valley-flowers.jpeg",
+                "mode": "cover"
+              },
+              "cornerRadius": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QgtDk",
+          "name": "Mission And Vision",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "gap": 96,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "meDgH",
+              "name": "Vision",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NoVdm",
+                  "name": "Eyebrow",
+                  "fill": "#FFFFFFB3",
+                  "content": "OUR VISION",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "jtJ7P",
+                  "name": "Vision Text",
+                  "fill": "$fg-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "To be a trustworthy and innovative leader, offering genuine, true wellness products and solutions for conscious, healthy living.",
+                  "lineHeight": 1.15,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H4Id7",
+              "name": "Mission",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ubQvJ",
+                  "name": "Eyebrow",
+                  "fill": "#FFFFFFB3",
+                  "content": "OUR MISSION",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "kftkT",
+                  "name": "Become the leading provider of vegetables in the area",
+                  "width": "fill_container",
+                  "stroke": "#FFFFFF33",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "lKBOy",
+                      "name": "Become the leading provider of vegetables in the area Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mbUnv",
+                      "name": "Become the leading provider of vegetables in the area Text",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Become the leading provider of vegetables in the area",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uf1XS",
+                  "name": "Provide quality vegetables, fruit, fish and goat meat at a fair price",
+                  "width": "fill_container",
+                  "stroke": "#FFFFFF33",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tKDHN",
+                      "name": "Provide quality vegetables, fruit, fish and goat meat at a fair price Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y0EWjr",
+                      "name": "Provide quality vegetables, fruit, fish and goat meat at a fair price Text",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Provide quality vegetables, fruit, fish and goat meat at a fair price",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xt8m2",
+                  "name": "Economically empower the society of Tiuj Village",
+                  "width": "fill_container",
+                  "stroke": "#FFFFFF33",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "q72ROW",
+                      "name": "Economically empower the society of Tiuj Village Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mYjEU",
+                      "name": "Economically empower the society of Tiuj Village Text",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Economically empower the society of Tiuj Village",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RX39k",
+                  "name": "Protect the soil and the ecosystem of the planet",
+                  "width": "fill_container",
+                  "stroke": "#FFFFFF33",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "d06Uxr",
+                      "name": "Protect the soil and the ecosystem of the planet Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wmlWf",
+                      "name": "Protect the soil and the ecosystem of the planet Text",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Protect the soil and the ecosystem of the planet",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v2doR",
+          "name": "Roadmap",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "a3qm8e",
+              "name": "Roadmap Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R8s0AT",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "ROADMAP",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "Gb2N8",
+                  "name": "Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 820,
+                  "content": "From one farm to a model for Jharkhand.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XbT8F",
+              "name": "Roadmap Steps",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nhc0G",
+                  "name": "START-UP PLAN",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "top": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LvJJL",
+                      "name": "START-UP PLAN Label",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "START-UP PLAN",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "uze3I",
+                      "name": "START-UP PLAN Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "First 6 months",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j1oJmL",
+                      "name": "START-UP PLAN Body",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Allocate capital and set up the farm.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jfq7X",
+                  "name": "1-YEAR PLAN",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "top": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K3bjL",
+                      "name": "1-YEAR PLAN Label",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "1-YEAR PLAN",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "se3Cu",
+                      "name": "1-YEAR PLAN Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "April to March",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T85wa",
+                      "name": "1-YEAR PLAN Body",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Develop a model agro farm in the village and a Farmers Producers Group of 10-11 farmers.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KnfGq",
+                  "name": "5-YEAR PLAN",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "top": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dWr6B",
+                      "name": "5-YEAR PLAN Label",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "5-YEAR PLAN",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xtnZe",
+                      "name": "5-YEAR PLAN Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "2027 to 2032",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EnwPh",
+                      "name": "5-YEAR PLAN Body",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Annual plan for the farm's sustainability, then replicate the model in 5 regions with local farmers.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YvD4B",
+                  "name": "FROM 2032",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "top": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z4yTv",
+                      "name": "FROM 2032 Label",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "FROM 2032",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "KOJph",
+                      "name": "FROM 2032 Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Next 5-year plan",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i2WZn7",
+                      "name": "FROM 2032 Body",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Replicate the model in all 24 districts of Jharkhand, in partnership with farmers.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tf4eE",
+          "name": "Outcomes",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 80,
+          "padding": [
+            96,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "j4bn8X",
+              "name": "Farmer Photo",
+              "clip": true,
+              "width": 480,
+              "height": 480,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/farmer-maize.jpeg",
+                "mode": "cover"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "frame",
+              "id": "lHWPK",
+              "name": "Outcome Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x0UOH",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "WHY IT MATTERS",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "FFryd",
+                  "name": "Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Good for buyers, investors and the village.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 48,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "o2liDm",
+                  "name": "Consumers get healthy food",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "DSQRa",
+                      "name": "Consumers get healthy food Icon",
+                      "width": 26,
+                      "height": 26,
+                      "icon": "apple",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lx7Jn",
+                      "name": "Consumers get healthy food Text",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Consumers get healthy food",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font-body",
+                      "fontSize": 19,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M5xlBp",
+                  "name": "Investors get a reasonable profit",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "sh5KO",
+                      "name": "Investors get a reasonable profit Icon",
+                      "width": 26,
+                      "height": 26,
+                      "icon": "trending-up",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ii9Eg",
+                      "name": "Investors get a reasonable profit Text",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Investors get a reasonable profit",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font-body",
+                      "fontSize": 19,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iq702",
+                  "name": "People get employed and the local economy is sustained",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "uboD4",
+                      "name": "People get employed and the local economy is sustained Icon",
+                      "width": 26,
+                      "height": 26,
+                      "icon": "users",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u9v3zG",
+                      "name": "People get employed and the local economy is sustained Text",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "People get employed and the local economy is sustained",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font-body",
+                      "fontSize": 19,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o34r9",
+          "name": "Team",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ecj1q",
+              "name": "Team Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z2fxvw",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "THE TEAM",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "yu6WU",
+                  "name": "Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The people behind the farm.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "guoqJ",
+                  "name": "Partners",
+                  "fill": "$fg-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Designated partners: Dr. Gaurav Varma and Dr. Bipin Kumar Singh, with two further partners.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gkTsm",
+              "name": "Partner Profiles",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WKyzJ",
+                  "name": "Ph.D. in Chemistry",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NSlkv",
+                      "name": "Ph.D. in Chemistry Role",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "DESIGNATED PARTNER",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "wqsUi",
+                      "name": "Ph.D. in Chemistry Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ph.D. in Chemistry",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fywrn",
+                      "name": "Ph.D. in Chemistry Detail",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "27 years in water, sanitation and hygiene",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FGw8u",
+                  "name": "Ph.D. in Social Science",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bNu5P",
+                      "name": "Ph.D. in Social Science Role",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "DESIGNATED PARTNER",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "HAheK",
+                      "name": "Ph.D. in Social Science Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ph.D. in Social Science",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S35PT",
+                      "name": "Ph.D. in Social Science Detail",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "27 years in water, sanitation and hygiene",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YJpAM",
+                  "name": "BA, entrepreneur",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Id6yk",
+                      "name": "BA, entrepreneur Role",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "DESIGNATED PARTNER",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "X8anx",
+                      "name": "BA, entrepreneur Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "BA, entrepreneur",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s1UJ6",
+                      "name": "BA, entrepreneur Detail",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "15 years in the transport sector",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "efCGT",
+                  "name": "Farmer and contractor",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tv6CP",
+                      "name": "Farmer and contractor Role",
+                      "fill": "$accent",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "DESIGNATED PARTNER",
+                      "fontFamily": "$font-data",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "qfLOf",
+                      "name": "Farmer and contractor Title",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Farmer and contractor",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zCl6r",
+                      "name": "Farmer and contractor Detail",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "15 years of local contractual work",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "u9bQ3",
+              "name": "Staff Note",
+              "fill": "$fg-secondary",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "A team of 14 including a full-time farm manager and marketing expert, part-time agriculture expert and livestock consultant, and farm labour.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "a3HAFL",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "gap": 96,
+          "padding": [
+            112,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "REHEU",
+              "name": "Contact Info",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AfsTN",
+                  "name": "Eyebrow",
+                  "fill": "#FFFFFFB3",
+                  "content": "CONTACT US",
+                  "fontFamily": "$font-data",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "R8gr6",
+                  "name": "Title",
+                  "fill": "$fg-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Buy fresh, partner with us, or visit the farm.",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 52,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "V0zri",
+                  "name": "Registered office",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Kgx4h",
+                      "name": "Registered office Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "map-pin",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jDcjD",
+                      "name": "Registered office Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OgkSK",
+                          "name": "Registered office Title",
+                          "fill": "#FFFFFFB3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Registered office",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ihjuT",
+                          "name": "Registered office Value",
+                          "fill": "$fg-inverse",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "501, PM Residency, Mission School Road, Hurhuru, Hazaribagh - 825301",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UPWo6",
+                  "name": "Phone",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "NFeVA",
+                      "name": "Phone Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "phone",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L72zKf",
+                      "name": "Phone Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "N81DAQ",
+                          "name": "Phone Title",
+                          "fill": "#FFFFFFB3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Phone",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I6mz4",
+                          "name": "Phone Value",
+                          "fill": "$fg-inverse",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "9431491403 / 8825331013",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c0ytR",
+                  "name": "Email",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Dozqr",
+                      "name": "Email Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "mail",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Tjeh6",
+                      "name": "Email Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hAo88",
+                          "name": "Email Title",
+                          "fill": "#FFFFFFB3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Email",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "djMqP",
+                          "name": "Email Value",
+                          "fill": "$fg-inverse",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "safal.organic05@gmail.com",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nr6uL",
+              "name": "Contact Form",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 36,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TAwhR",
+                  "name": "Form Title",
+                  "fill": "$fg-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Send us a message",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "OzSbD",
+                  "name": "Intent Chips",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MfGeR",
+                      "name": "I want to buy",
+                      "fill": "$accent",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        10,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nSjqE",
+                          "name": "I want to buy Label",
+                          "fill": "$fg-inverse",
+                          "content": "I want to buy",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pZJsw",
+                      "name": "I want to invest or partner",
+                      "fill": "$surface-primary",
+                      "cornerRadius": 9999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        10,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uR02V",
+                          "name": "I want to invest or partner Label",
+                          "fill": "$fg-primary",
+                          "content": "I want to invest or partner",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c1iOj",
+                  "name": "Name Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pKjzz",
+                      "name": "Name Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Name",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bu1Wd",
+                      "name": "Name Input",
+                      "width": "fill_container",
+                      "fill": "$surface-primary",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s2weZE",
+                          "name": "Name Placeholder",
+                          "fill": "#8A948A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Your name",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kFbsm",
+                  "name": "Phone or email Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "feV8k",
+                      "name": "Phone or email Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Phone or email",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PMt3p",
+                      "name": "Phone or email Input",
+                      "width": "fill_container",
+                      "fill": "$surface-primary",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OqcOl",
+                          "name": "Phone or email Placeholder",
+                          "fill": "#8A948A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "How we can reach you",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pcdu4",
+                  "name": "Message Field",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NcbeH",
+                      "name": "Message Label",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Message",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UMSTG",
+                      "name": "Message Input",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$surface-primary",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bN5eZ",
+                          "name": "Message Placeholder",
+                          "fill": "#8A948A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "What would you like to know?",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TzQba",
+                  "name": "Send Button",
+                  "width": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LwI0d",
+                      "name": "Send Label",
+                      "fill": "$fg-inverse",
+                      "content": "Send message",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H5yQOC",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "padding": [
+            32,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jVfd9",
+              "name": "Footer Logo",
+              "fill": "$fg-inverse",
+              "content": "Ecojhar Agrology",
+              "fontFamily": "$font-heading",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "o5zwPH",
+              "name": "Footer Note",
+              "fill": "#FFFFFFB3",
+              "content": "© 2026 All rights reserved",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
     }
   ],
+  "variables": {
+    "surface-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#F4F5F5"
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#1E3322"
+    },
+    "fg-primary": {
+      "type": "color",
+      "value": "#1E3322"
+    },
+    "fg-secondary": {
+      "type": "color",
+      "value": "#6B7B6B"
+    },
+    "fg-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#2D6B3F"
+    },
+    "border": {
+      "type": "color",
+      "value": "#E3E7E3"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Fraunces"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-data": {
+      "type": "string",
+      "value": "Geist Mono"
+    },
+    "surface-tint": {
+      "type": "color",
+      "value": "#E9F1EA"
+    }
+  },
   "fileToken": "4d4996c0-87f2-479f-8202-b0269fd40b5e"
 }
