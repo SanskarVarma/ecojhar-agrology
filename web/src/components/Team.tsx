@@ -27,6 +27,7 @@ const partners: Partner[] = [
   },
   {
     kind: "Associated partner",
+    name: "Mr. Surjit Singh",
     photo: "/images/team/surjit.jpg",
     role: "Farmer and contractor",
     detail: "15 years of local contractual work",
